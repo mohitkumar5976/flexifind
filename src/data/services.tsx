@@ -5,12 +5,8 @@ import {
   TruckIcon,
   UserGroupIcon,
   CakeIcon,
-  LightBulbIcon,
   ScissorsIcon,
-  BuildingOffice2Icon,
   BoltIcon,
-  AcademicCapIcon,
-  HeartIcon,
   PaintBrushIcon,
 } from "@heroicons/react/24/outline";
 
