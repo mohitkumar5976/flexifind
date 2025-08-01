@@ -1,4 +1,3 @@
-import React from "react";
 import { useForm } from "react-hook-form";
 import { PhotoIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
@@ -7,7 +6,6 @@ const RegisterForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
   } = useForm();
 
   const onSubmit = (data: any) => {
