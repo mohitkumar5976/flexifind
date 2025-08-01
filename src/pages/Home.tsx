@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import Banner from "../components/Home/Banner/Banner";
 import { AppContext } from "../contexts/AppContext";
-import CardSkeleton from "../components/atoms/CardSkeleton";
 import SearchContainer from "../components/Home/Search/SearchContainer";
 import MainContent from "../components/Home/Content/MainContent";
 
@@ -13,7 +12,7 @@ const Home = () => {
       <section className="pt-8">
         <Banner />
       </section>
-      <main className="pt-2">
+      <main>
         {(search?.length ?? 0) > 0 ? (
           <SearchContainer search={search} loading={loading} />
         ) : (
